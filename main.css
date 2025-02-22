@@ -1,0 +1,79 @@
+html{
+    margin:0;
+    height:200%;
+    background-color: #ECECEC;
+    overflow-x: hidden;
+}
+
+h1{
+    padding:100px;
+    padding-top:5px; 
+    margin:100px;
+    text-align:center;
+    box-sizing:border-box;
+}
+nav{
+    position: fixed;
+    right:10vw;
+    left:10vw;
+    top:1vw;
+    height:70px;
+    background-color:gray;
+}
+#menu{
+    display:block;
+    text-decoration: none;
+    color:white;
+    margin-right:35px;
+}
+
+body{
+    padding:30px;
+    margin-top:-50px;
+    margin-right:auto;
+    margin-left:auto;
+    width:1200px;
+    background-color:white;
+    box-shadow:0px 0px 5px gray;
+
+}
+
+.block1{
+    margin-right:auto;
+    margin:20px;
+}
+#s1{
+    margin:10px;
+    position:relative;
+    line-height:auto;
+}
+
+.box17{
+    margin:2em 0;
+    position: relative;
+    padding: 3em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+.box17:before, .box17:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.box17:before {left: 10px;}
+.box17:after {right: 10px;}
+.box17 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.skill{
+    padding: 0.25em 0.5em;/*上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 5px #7db4e6;/*左線*/
+  }
